@@ -1,14 +1,12 @@
 import dados.*;
 import ui.*;
 
-
-public class Main{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         Cliente cliente = new Cliente();
         Porto porto = new Porto();
         Navio navio = new Navio();
-        Carga carga = new Carga(); 
+        Carga carga = new Carga();
         TipoCarga TipoCarga = new TipoCarga();
         CargaDuravel cargaDuravel = new CargaDuravel();
         CargaPerecivel cargaPerecivel = new CargaPerecivel();
